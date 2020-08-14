@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd067373-27c5-490f-9e2d-caa434fd04e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ControleBonificacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EditorVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TesteReferencias.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Funcionario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gerente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestaFuncionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestaFuncionario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestandoGerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestandoGerente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,13 +34,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestandoGerente">
+  <component name="RunManager" selected="Application.TesteReferencias">
     <configuration name="TestaFuncionario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestaFuncionario" />
       <module name="bytebank-herdado" />
@@ -60,8 +63,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TesteReferencias" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TesteReferencias" />
+      <module name="bytebank-herdado" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteReferencias" />
         <item itemvalue="Application.TestandoGerente" />
         <item itemvalue="Application.TestaFuncionario" />
         <item itemvalue="Application.Teste" />
@@ -90,25 +101,29 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1597192664068" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1597282162613">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1597366004063">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597282162613" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1597282162613">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597366004063" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1597366004063">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597282162613" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1597282162612">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597366004063" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1597366004063">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597282162612" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1597282162613">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597366004063" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1597366004063">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597282162613" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1597279646288">
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597366004063" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1597362873652">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1597279646288" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1597362873652" />
+    <state x="92" y="92" width="1182" height="544" key="dock-window-1" timestamp="1597364430216">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1597364430216" />
   </component>
 </project>
