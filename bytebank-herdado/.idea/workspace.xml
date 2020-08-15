@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd067373-27c5-490f-9e2d-caa434fd04e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/src/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/src/Conta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/src/ContaCorrente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/src/ContaPoupanca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bytebank-herdado-conta/src/TestaContas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Designer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Administrador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SistemaInterno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TesteSistema.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EditorVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EditorVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado/Funcionario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bytebank-herdado/Funcionario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado/Gerente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bytebank-herdado/Gerente.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Funcionario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gerente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestaFuncionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestaFuncionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TesteReferencias.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TesteReferencias.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,14 +36,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bytebank-herdado-conta" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TesteReferencias">
+  <component name="RunManager" selected="Application.TesteSistema">
     <configuration name="TestaFuncionario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestaFuncionario" />
       <module name="bytebank-herdado" />
@@ -76,8 +72,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TesteSistema" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TesteSistema" />
+      <module name="bytebank-herdado" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteSistema" />
         <item itemvalue="Application.TesteReferencias" />
         <item itemvalue="Application.TestandoGerente" />
         <item itemvalue="Application.TestaFuncionario" />
@@ -111,26 +115,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597453427463" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1597453428386">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1597455279060">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597453428386" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1597453428386">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597455279060" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1597455279060">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597453428386" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1597453428385">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597455279060" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1597455279060">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597453428385" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1597453428386">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597455279060" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1597455279060">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597453428386" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597455279060" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1597454886983">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597454886983" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1597454886983">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1597454886983" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1597454886983">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1597454886983" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1597454886983">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1597454886983" />
     <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1597449650233">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1597449650233" />
+    <state x="259" y="101" width="847" height="602" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1597454882278">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="259" y="101" width="847" height="602" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1597454882278" />
     <state x="92" y="92" width="1182" height="544" key="dock-window-1" timestamp="1597364430216">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
