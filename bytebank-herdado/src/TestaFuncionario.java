@@ -1,7 +1,7 @@
 public class TestaFuncionario {
     public static void main(String[] args) {
 
-        Funcionario nico = new Funcionario();
+        Gerente nico = new Gerente();
         nico.setNome("Nico Steppat");
         nico.setCpf("123.456.789-95");
 
